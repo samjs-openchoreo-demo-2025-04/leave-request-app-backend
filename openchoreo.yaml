@@ -1,0 +1,13 @@
+apiVersion: score.dev/v1b1
+metadata:
+  name: leave-request-app-backend
+  project: internal-apps
+  organization: leave-request-app-backend
+service:
+  ports:
+    default:
+      port: 8080
+      protocol: TCP
+containers:
+  container-one1:
+    image: .
